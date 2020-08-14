@@ -37,7 +37,7 @@ I have also included the django-debug-toolbar (https://django-debug-toolbar.read
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.7+
 - Django 3.0+
 
 ### Setting up the Django-app project
