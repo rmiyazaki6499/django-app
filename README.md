@@ -26,6 +26,7 @@ django-app
   |___ static_files/
   |___ templates/ (Django Templates)
   |   |___ index.html
+  |___ scripts/
   |___ manage.py
   |___ requirements.txt
 
