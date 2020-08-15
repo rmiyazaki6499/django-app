@@ -29,6 +29,8 @@ django-app
   |___ scripts/
   |___ manage.py
   |___ requirements.txt
+  |___ Dockerfile
+  |___ docker-compose.yml
 
 ```
 
