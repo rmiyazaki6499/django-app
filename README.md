@@ -72,7 +72,7 @@ docker-compose version 1.26.2, build eefe0d31
 $ git clone https://github.com/rmiyazaki6499/django-app.git
 ```
 
-- Go into the project directory and build and run the container with:
+- Go into the project directory to build and run the container with:
 
 ```
 $ cd django-app/
