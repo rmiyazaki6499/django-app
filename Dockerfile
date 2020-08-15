@@ -10,4 +10,4 @@ COPY . .
 
 LABEL maintainer="Ryuichi Miyazaki <rmiyazaki11@ucsbalum.com>"
 
-CMD ./start.sh 
+CMD ./scripts/start.sh 
