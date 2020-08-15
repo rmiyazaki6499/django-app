@@ -11,6 +11,7 @@ This repository contains a simple Django app as part of the **Deploying a Produc
 - [Setting up the Django-app project with Docker](#setting-up-the-django-app-project-with-docker)
   - [Install Docker](#install-docker)
   - [Build and Run the Container](#build-and-run-the-container)
+  - [Cleaning up the Container and Image](#cleaning-up-the-container-and-image)
 - [Setting up the Django-app project manually](#setting-up-the-django-app-project-manually)
 - [Authors](#authors)
 
@@ -84,6 +85,25 @@ It should look something like this:
 
 ![django-default](https://user-images.githubusercontent.com/41876764/87993902-8d27df00-caa0-11ea-8f66-990932b37ca3.png)
 
+#### Cleaning up the Container and Image
+
+To stop the container from running, use `<Ctrl-C>` twice.
+To close down the container use the command:
+
+```
+$ docker-compose down
+```
+Then to clean up the container and image which we are no longer using use the command:
+
+```
+$ docker system prune -fa
+```
+
+Confirm that the container and image is no longer there with:
+
+```
+$ docker system df -v
+```
 
 ### Setting up the Django-app project manually
 
