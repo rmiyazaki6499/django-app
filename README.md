@@ -47,11 +47,11 @@ I have also included the **django-debug-toolbar** (https://django-debug-toolbar.
 - Python 3.7+
 - Django 3.0+
 
-### Setting up the Django-app project with Docker
+## Setting up the Django-app project with Docker
 
 For those that are not interested in setting up the project manually or would simply not have to worry about downloading python and its dependencies, I have created a Dockerfile and docker-compose.yml file to help create a container with everything you would need to run the **django-app**.
 
-#### Install Docker
+### Install Docker
 
 To make this as easy as possible, we will be using *Docker Compose* to creat our container.
 
@@ -68,7 +68,7 @@ $ docker-compose --version
 docker-compose version 1.26.2, build eefe0d31
 ```
 
-#### Build and Run the Container
+### Build and Run the Container
 
 - Clone the repo to your local machine:
 
@@ -88,7 +88,7 @@ It should look something like this:
 
 ![django-default](https://user-images.githubusercontent.com/41876764/87993902-8d27df00-caa0-11ea-8f66-990932b37ca3.png)
 
-#### Cleaning up the Container and Image
+### Cleaning up the Container and Image
 
 To stop the container from running, use `<Ctrl-C>` twice.
 To close down the container use the command:
@@ -108,7 +108,7 @@ Confirm that the container and image is no longer there with:
 $ docker system df -v
 ```
 
-### Setting up the Django-app project manually
+## Setting up the Django-app project manually
 
 If you either did not want to use Docker or was curious to build the Django App manually follow the directions below.
 
