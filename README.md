@@ -2,7 +2,7 @@
 
 # Django App
 
-This repository contains a simple Django app as part of the **Deploying a Production ready React-Express App on EC2 with CI/CD** gist tutorial which you can find [here](https://gist.github.com/rmiyazaki6499/92a7dc283e160333defbae97447c5a83)
+This repository contains a simple Django app as part of the **Deploying a Production ready Django App on EC2 with CI/CD** gist tutorial which you can find [here](https://gist.github.com/rmiyazaki6499/92a7dc283e160333defbae97447c5a83)
 
 ## Table of Contents
 
@@ -110,7 +110,7 @@ $ docker system df -v
 
 ## Setting up the Django-app project manually
 
-If you either did not want to use Docker or was curious to build the Django App manually follow the directions below.
+If you either did not want to use Docker or was curious to build the `django-app` manually follow the directions below.
 
 - On your terminal and clone the repository with Git:
 
