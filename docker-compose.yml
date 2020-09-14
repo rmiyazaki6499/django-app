@@ -5,6 +5,5 @@ services:
     build: '.'
     env_file:
       - 'backend/.env'
-    image: 'rmiyazaki6499/django-app'
     ports:
       - '8000:8000'
